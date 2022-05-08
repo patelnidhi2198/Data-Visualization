@@ -4,7 +4,7 @@ import PropsTypes from 'prop-types';
 import Layout from 'components/Layout/Layout';
 import ScatterPlot from 'components/ScatterPlot/ScatterPlot';
 
-function LiteracyRatesByContry({ data }) {
+function LiteracyRatesByCountry({ data }) {
   return (
     <Layout
       headTitle="Scatter Plot | Data Visualization"
@@ -35,8 +35,8 @@ export async function getStaticProps() {
   };
 }
 
-LiteracyRatesByContry.propTypes = {
+LiteracyRatesByCountry.propTypes = {
   data: PropsTypes.array,
 };
 
-export default LiteracyRatesByContry;
+export default LiteracyRatesByCountry;
