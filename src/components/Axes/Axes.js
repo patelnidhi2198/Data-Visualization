@@ -40,8 +40,8 @@ function Axes({
       .tickSize(yTickSize)
       .tickPadding(yTickPadding);
 
-    if (yAxisTickFormat) yAxis.tickFormat(yAxisTickFormat); // Line Chart
-    if (xAixsTickFormat) xAxis.tickFormat(xAixsTickFormat); // Bar Chart
+    if (yAxisTickFormat) yAxis.tickFormat(yAxisTickFormat); // The line Chart
+    if (xAixsTickFormat) xAxis.tickFormat(xAixsTickFormat); // The Bar Chart
 
     xGroup.call(yAxis);
     yGroup.call(xAxis);
