@@ -1,0 +1,21 @@
+{
+  "name": "react-data-visualization",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm install --force && npm audit fix --force"
+  },
+  "dependencies": {
+    "d3": "^6.3.1",
+    "next": "^12.1.6",
+    "prop-types": "^15.8.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "styled-components": "^5.2.1",
+    "topojson": "^3.0.2"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.12.0"
+  }
+}
